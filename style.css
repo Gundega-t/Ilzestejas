@@ -102,9 +102,7 @@ footer p {
     color: rgba(17, 90, 39, 0.979);
 }
 
-.video {
-    padding-bottom: 50px;
-    padding-top: 70px;
+iframe {
     text-align: center;
     margin-top: 0px;
 
