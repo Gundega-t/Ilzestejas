@@ -103,12 +103,15 @@ footer p {
 }
 
 .video {
+    width: 90%;
+    height: 0;
     padding-bottom: 50px;
     padding-top: 70px;
     text-align: center;
     margin-top: 320px;
 
 }
+
 
 #citronzale { 
     border-radius: 50%;
