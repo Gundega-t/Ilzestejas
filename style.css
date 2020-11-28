@@ -97,7 +97,7 @@ nav ul {
     display: block;
     padding: 15px;
     text-decoration: none;
-    color: #aaa;
+    color: rgba(86, 138, 26, 0.952);
     font-weight: 800;
     text-transform: uppercase;
     margin: 0 10px;
@@ -108,7 +108,7 @@ nav ul {
     transition: all .5s;
   }
   nav ul li a:hover {
-    color: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(102,224,86,0.8491771708683473) 0%, rgba(252,204,69,1) 100%);
+    color:rgba(5, 65, 23, 0.979);
   }
   
 nav.stroke ul li a,
@@ -125,7 +125,8 @@ nav.fill ul li a:after {
   width: 0%;
   content: '.';
   color: transparent;
-  background: rgb(170, 170, 170);
+  background: rgb(224,86,86);
+  background: linear-gradient(90deg, rgba(224,86,86,0.8743872549019608) 5%, rgba(237,238,67,0.8799894957983193) 94%);
   height: 1px;
 }
 nav.stroke ul li a:hover:after {
