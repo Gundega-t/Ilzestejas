@@ -170,16 +170,26 @@ iframe {
     align-items: right;
   }
 
-  @media screen and (max-width: 800px) {
-    .container {
-      flex: 50%;
-      max-width: 50%;
-    }
-  }
+  
 
   @media screen and (max-width: 600px) {
     .container {
+      flex: 75%;
+      max-width: 75%;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+    .container {
+      flex: 75%;
+      max-width: 75%;
+    
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .container {
       flex: 100%;
       max-width: 100%;
+    
     }
   }
