@@ -240,6 +240,51 @@ iframe {
   #myBtn:hover {
     background-color: #555;
   }
+
+
+
+
+*{box-sizing: border-box}
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.phone-ad {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  float: center;
+}
+
+/* Make the image to responsive */
+.image-ad {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(4, 36, 6, 0.5); /* Green see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 10px;
+  padding: 4px;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.phone-ad:hover .overlay {
+  opacity: 1;
+}
+
+
   
   @media screen and (max-width: 600px) {
     .container {
