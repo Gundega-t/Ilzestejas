@@ -28,20 +28,49 @@
         <main>
             <h1 style="font-family:sans-serif">Sazinies ar mums</h1>
                 <p style="font-family:sans-serif">Tālrunis:+37127018370</p>
-                     <p style="font-family:sans-serif">E-pasts: ilzestejas@gmail.com <a href="mailto:gundega.tirzite@gmail.com?Subject=Pasūtījums" target="_blank">Rakstīt e-pastu</a></p>
+                     <p style="font-family:sans-serif">E-pasts: ilzestejas@gmail.com <a href="mailto:ilzestejas@gmail.com?Subject=Pasūtījums" target="_blank">Rakstīt e-pastu</a></p>
                      <p style="font-family:sans-serif">Facebook un instagram: @ilzestejas</p>
 
-                     <div class="phone-ad">
-                        <a href="https://www.instagram.com/ilzestejas/">  
-                        <img src="galery/diferent.png" alt="small tea blog ad" style="width:100%" class="image-ad">
-                        <div class="overlay">Pievienojies mums Instagram</div>
-                      </a>
-                        
-                      </div>
-                
-           
+                     <div class="row">
+                         <div class="column" style="width:50%">
+                            <div class="phone-ad-Facebook-messenger">
+                                <a href="https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F296298837656104%2F%3Fmessaging_source%3Dsource%253Apages%253Amessage_shortlink">  
+                                    <img src="galery/diferent.png" alt="diferent" style="width:100%">
+                                    <div class="overlay">Sazinies izmantojot <strong>facebook</strong>-messenger</div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="column" style="width:50%">
+                            <div class="phone-ad-instagram">
+                                <a href="https://www.instagram.com/ilzestejas/">
+                                    <img src="galery/instagramapgriezsts.png" alt="instagram" style="width:100%">
+                                    <div class="overlay">Noskenē kodu vai spied uz attēla un seko jaunumiem</div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </main>
 
-        </main>
+        <script>
+            // Get the elements with class="column"
+            var elements = document.getElementsByClassName("column");
+            
+            // Declare a loop variable
+            var i;
+            
+            
+            // Two images side by side
+            function two() {
+              for (i = 0; i < elements.length; i++) {
+                elements[i].style.msFlex = "50%";  // IE10
+                elements[i].style.flex = "50%";
+              }
+            }
+          
+            </script>
+
+        
+
 
         <footer>
             <p>Latvia, @ilzestejas - Copyright 2020©</p>

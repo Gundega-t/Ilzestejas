@@ -183,6 +183,7 @@ ol {
 a {
     color: rgba(17, 90, 39, 0.979);
     font-family: monospace;
+    text-decoration: none;
    
 }
 
@@ -225,7 +226,7 @@ iframe {
   }
   
   #myBtn:hover {
-    background-color: #555;
+    background-color: rgba(10, 48, 18, 0.842);
   }
 
 
@@ -242,10 +243,19 @@ iframe {
 }
 
 /* Make the image to responsive */
-.image-ad {
-  display: block;
+
+.phone-ad-Facebook-messenger {
+  position: relative;
   width: 100%;
-  height: auto;
+  max-width: auto;
+  float: center;
+}
+
+.phone-ad-instagram {
+  position: relative;
+  width: 100%;
+  max-width: auto;
+  float: center;
 }
 
 /* The overlay effect - lays on top of the container and over the image */
@@ -253,23 +263,26 @@ iframe {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
-  background: rgba(4, 36, 6, 0.5); /* Green see-through */
+  background: rgba(3, 32, 5, 0.808); /* Green see-through */
   color: #f1f1f1;
   width: 100%;
   transition: .5s ease;
   opacity:0;
   color: white;
   font-size: 10px;
-  padding: 4px;
+  padding: 10px;
   text-align: center;
   font-family: sans-serif;
 }
 
 /* When you mouse over the container, fade in the overlay title */
-.phone-ad:hover .overlay {
+.phone-ad-Facebook-messenger:hover .overlay {
   opacity: 1;
 }
 
+.phone-ad-instagram:hover .overlay {
+  opacity: 1;
+}
 
 
   
@@ -300,7 +313,7 @@ iframe {
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(26,193,40,0.5298494397759104) 0%, rgba(252,176,69,1) 100%);
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 850px;
+    margin-top: 1500px;
 }
 
 footer p {
