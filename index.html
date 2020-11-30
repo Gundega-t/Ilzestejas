@@ -7,10 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-
     <div class="container">
-        
+
         <header>
             <img class="img-responsive" src="logo.png.png" width="165" height="165" alt="Logo for Ilzes Tejas">
 
@@ -30,7 +28,7 @@
                 <p style="font-family:sans-serif">Smelies iedvesmu un idejas veselīgam dzīvesveidam. <a href="https://www.facebook.com/ilzestejas/?modal=admin_todo_tour">Ilzes tējas</a> tiek audzētas ar mīlestību, Latvijas lauku sētā. Viena no ikgadēji ievāktajām un iemīļotajām tējām ir citronzāles tēja, kura ir pierādījums tam, ka Dievs ir devis mūsu veselībai nepieciešamo jau dabā un reizēm pirms doties pie ārsta, ir vērts zināt par tēju spēku. Konkrēti citronzāle ir ne tikai gardākā VESELĪBAS tēja, bet ir arī lieliska piedeva ikdienas noslēgumam vai vienkārši mierpilnai baudīšanai draugu lokā pie kūkas vai Taviem mīļākajiem cepumiem. </p>
 
                 <img src="collage.png" class="responsive" width= "560" height="290" alt="collage">
-            <p style="font-family: sans-serif"> Citronzāles tēja safasēta gan beramā veidā, gan tējas maisiņos. Izvēlies sev ērtāko un baudi.</p>
+                <p style="font-family: sans-serif"> Citronzāles tēja safasēta gan beramā veidā, gan tējas maisiņos. Izvēlies sev ērtāko un baudi.</p>
 
                 <a href="mailto:ilzestejas@gmail.com?Subject=Pasūtījums" target="_blank">Pasūtīt citronzāles tēju</a>
 
@@ -42,11 +40,43 @@
 
 
 
+    
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Uz augšu</button>
+
+        <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+
         <footer>
             <p>Latvia, @ilzestejas - Copyright 2020©</p>
         </footer>
 
+   
     </div>
+
+
+
+
+    
+
     
 </body>
 </html>
