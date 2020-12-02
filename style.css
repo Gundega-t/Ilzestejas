@@ -17,7 +17,6 @@ body {
 }
 
 
-
 .header {
     text-align: center;
     padding: 32px;
@@ -163,8 +162,8 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-p2 {
-    font-size: 12px;
+h2 {
+    font-size: 20px;
     color:rgba(17, 90, 39, 0.979);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
@@ -275,7 +274,7 @@ iframe {
   font-family: sans-serif;
 }
 
-/* When you mouse over the container, fade in the overlay title */
+/* When  mouse over the container, fade in the overlay title */
 .phone-ad-Facebook-messenger:hover .overlay {
   opacity: 1;
 }
@@ -283,6 +282,52 @@ iframe {
 .phone-ad-instagram:hover .overlay {
   opacity: 1;
 }
+
+/*Kontakktu sadala*/
+* {
+  box-sizing: border-box;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: center;
+  width: 100px;
+  padding: 10px;
+  height: 250px; /* Should be removed. Only for demonstration */
+  gap: 4px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  
+  }
+}
+@media screen and (max-width: 992px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  
+  }
+}
+
+/*TEST ENDS*/
 
 
   
