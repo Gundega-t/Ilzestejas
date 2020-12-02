@@ -162,6 +162,7 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+
 h2 {
     font-size: 20px;
     color:rgba(17, 90, 39, 0.979);
@@ -172,11 +173,17 @@ h2 {
 ul {
     text-align: center;
     list-style-position: inside;
+    font-size: 18px;
+    color:rgba(17, 90, 39, 0.979);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ol {
     text-align: center;
     list-style-position: inside;
+    font-size: 18px;
+    color:rgba(17, 90, 39, 0.979);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 a {
@@ -185,6 +192,7 @@ a {
     text-decoration: none;
    
 }
+
 
 nav a {
     color: rgba(17, 90, 39, 0.979);
