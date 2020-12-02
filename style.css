@@ -175,7 +175,7 @@ ul {
     list-style-position: inside;
     font-size: 18px;
     color:rgba(17, 90, 39, 0.979);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 ol {
@@ -183,7 +183,7 @@ ol {
     list-style-position: inside;
     font-size: 18px;
     color:rgba(17, 90, 39, 0.979);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 a {
@@ -213,7 +213,7 @@ iframe {
 
 #citronzale { 
     border-radius: 50%;
-    align-items: right;
+    align-items: center;
   }
 
   #myBtn {
@@ -236,9 +236,6 @@ iframe {
     background-color: rgba(10, 48, 18, 0.842);
   }
 
-
-
-
 *{box-sizing: border-box}
 
 /* Container needed to position the overlay. Adjust the width as needed */
@@ -246,7 +243,7 @@ iframe {
   position: relative;
   width: 100%;
   max-width: 380px;
-  float: center;
+  float: right;
 }
 
 /* Make the image to responsive */
@@ -255,14 +252,14 @@ iframe {
   position: relative;
   width: 100%;
   max-width: auto;
-  float: center;
+  float: right;
 }
 
 .phone-ad-instagram {
   position: relative;
   width: 100%;
   max-width: auto;
-  float: center;
+  float: right;
 }
 
 /* The overlay effect - lays on top of the container and over the image */
@@ -298,7 +295,7 @@ iframe {
 
 /* Create three equal columns that floats next to each other */
 .column {
-  float: center;
+  float: right;
   width: 100px;
   padding: 10px;
   height: 250px; /* Should be removed. Only for demonstration */
@@ -361,6 +358,11 @@ iframe {
     }
   }
 
+
+
+
+
+  
   footer {
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(26,193,40,0.5298494397759104) 0%, rgba(252,176,69,1) 100%);
