@@ -251,14 +251,12 @@ iframe {
 .phone-ad-Facebook-messenger {
   position: relative;
   width: 100%;
-  max-width: auto;
   float: right;
 }
 
 .phone-ad-instagram {
   position: relative;
   width: 100%;
-  max-width: auto;
   float: right;
 }
 
@@ -362,7 +360,7 @@ iframe {
 
 
 
-  
+
   footer {
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(26,193,40,0.5298494397759104) 0%, rgba(252,176,69,1) 100%);
