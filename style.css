@@ -296,7 +296,14 @@ iframe {
   float: right;
   width: 100px;
   padding: 10px;
-  height: 250px; /* Should be removed. Only for demonstration */
+  gap: 4px;
+  
+}
+
+.column123 {
+  float: right;
+  width: 100px;
+  padding: 10px;
   gap: 4px;
   
 }
@@ -308,25 +315,10 @@ iframe {
   clear: both;
 }
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other 
 @media screen and (max-width: 600px) {
   .column {
     width: 50%;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  
-  }
-}
-@media screen and (max-width: 992px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  
   }
 }
 
@@ -357,21 +349,38 @@ iframe {
   }
 
 
+  /*footer {
+    height: 50px;
+    flex-shrink: 0;
+    background: rgb(131,58,180);
+    bottom:0px;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(26,193,40,0.5298494397759104) 0%, rgba(252,176,69,1) 100%);
+  } */
 
-
-
-
-  footer {
+  /* OLD - footer {
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(26,193,40,0.5298494397759104) 0%, rgba(252,176,69,1) 100%);
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 1500px;
+    bottom:0px;
+  } */
+
+  footer {
+    left: 0px;
+    bottom: 0px;
+    height: 35px;
+    width: 100%;
+    margin-top: 1000px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(26,193,40,0.5298494397759104) 0%, rgba(252,176,69,1) 100%);
 }
+
 
 footer p {
     font-size: 10px;
     text-align: center;
     color: rgba(17, 90, 39, 0.979);
+    padding-top: 15px;
 }
 
