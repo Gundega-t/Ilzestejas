@@ -350,7 +350,7 @@ iframe {
   }
 
 
-  /*footer {
+  /* do not know if works or not - footer {
     height: 50px;
     flex-shrink: 0;
     background: rgb(131,58,180);
@@ -358,7 +358,7 @@ iframe {
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(26,193,40,0.5298494397759104) 0%, rgba(252,176,69,1) 100%);
   } */
 
-  /* OLD - footer {
+  /* do not know if works or not -  - footer {
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(26,193,40,0.5298494397759104) 0%, rgba(252,176,69,1) 100%);
     padding-top: 10px;
@@ -372,7 +372,7 @@ iframe {
     bottom: 0px;
     height: 35px;
     width: 100%;
-    margin-top: 1000px;
+    margin-top: 1500px;
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(26,193,40,0.5298494397759104) 0%, rgba(252,176,69,1) 100%);
 }
