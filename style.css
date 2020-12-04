@@ -152,7 +152,7 @@ main {
 
 
 h1 {
-    font-size: 70px;
+    font-size: 60px;
     color: rgb(18, 61, 18);
 }
 
@@ -216,6 +216,9 @@ iframe {
     align-items: center;
   }
 
+
+
+
   #myBtn {
     display: none;
     position: fixed;
@@ -260,12 +263,12 @@ iframe {
   float: right;
 }
 
-/* The overlay effect - lays on top of the container and over the image */
+
 .overlay {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0);
-  background: rgba(3, 32, 5, 0.808); /* Green see-through */
+  background: rgba(3, 32, 5, 0.808);
   color: #f1f1f1;
   width: 100%;
   transition: .5s ease;
@@ -370,7 +373,7 @@ iframe {
   footer {
     left: 0px;
     flex-shrink: 0;
-    bottom: fixed;
+    bottom: 0;
     height: 50px;
     width: 100%;
     margin-top: 2000px;
